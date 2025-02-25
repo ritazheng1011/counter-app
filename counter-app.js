@@ -129,7 +129,7 @@ export class CounterApp extends DDDSuper(I18NMixin(LitElement)) {
     this.count--;
   }
   reset() {
-    this.count = 0;
+    this.count = 16;
   }
 
   /**
